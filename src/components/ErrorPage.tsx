@@ -14,7 +14,7 @@ export function ErrorPage({
 
   return (
     <div>
-      <h2>An unhandled error occurred!</h2>
+      <h2>{process.env.NODE_ENV} : An unhandled error occurred!</h2>
       <blockquote>
         <code>
           {error.message}
